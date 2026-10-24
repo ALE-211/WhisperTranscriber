@@ -3,6 +3,10 @@
 基于 **faster-whisper** 的 Windows 桌面音视频转录工具：选文件、选模型、点一下，
 得到中文文字稿（txt / srt / md），进度条实时显示百分比、速度和剩余时间。
 
+[![Python Version](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
+[![PyQt5](https://img.shields.io/badge/PyQt5-5.15-green)](https://pypi.org/project/PyQt5/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 ## 功能
 
 - **四种模型可选**：large-v3-turbo / large-v3 / medium / small，按机器性能自由切换
