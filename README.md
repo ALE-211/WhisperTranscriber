@@ -4,9 +4,11 @@
 得到中文文字稿（txt / srt / md），进度条实时显示百分比、速度和剩余时间。
 
 <div align="center">
+
 [![Python Version](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
 [![PyQt5](https://img.shields.io/badge/PyQt5-5.15-green)](https://pypi.org/project/PyQt5/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 </div>
 
 ## 功能
