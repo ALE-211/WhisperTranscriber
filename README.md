@@ -49,6 +49,26 @@
 
 ## 生成 exe 启动器
 
+### 方式1
+使用Auto PY to EXE。这是一个基于Eel 和PyInstaller构建的、通过简单的UI界面将python项目中的.py文件(可以是单个py文件或多个py文件)打包为.exe文件的简单工具，与PyInstaller相比，Auto PY to EXE更简单直观，可以自动生成执行转换代码，进而将python程序打包为exe文件。
+模块安装：
+~~~bat
+pip install auto-py-to-exe
+~~~
+或通过GitHub安装：
+~~~bat
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
+~~~
+
+通过如下命令行，启动Auto PY to EXE：
+~~~bat
+auto-py-to-exe
+~~~
+在GUI中选择main.py，点击convert即可。
+
+### 方式2
 ~~~bat
 python build_launcher.py
 ~~~
